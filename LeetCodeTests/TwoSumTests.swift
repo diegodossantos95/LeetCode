@@ -8,7 +8,7 @@
 import XCTest
 @testable import LeetCode
 
-class LeetCodeTests: XCTestCase {
+class TwoSumTests: XCTestCase {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         var dict = [Int: Int]()
         

@@ -13,6 +13,7 @@
 		AF34AB8125F4213200F510CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF34AB8025F4213200F510CC /* Preview Assets.xcassets */; };
 		AF34AB8C25F4213200F510CC /* TwoSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34AB8B25F4213200F510CC /* TwoSumTests.swift */; };
 		AF34AB9725F4213200F510CC /* LeetCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34AB9625F4213200F510CC /* LeetCodeUITests.swift */; };
+		AF34ABAB25F4282C00F510CC /* LicenseKeyFormattingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34ABAA25F4282C00F510CC /* LicenseKeyFormattingTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		AF34AB9225F4213200F510CC /* LeetCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF34AB9625F4213200F510CC /* LeetCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeUITests.swift; sourceTree = "<group>"; };
 		AF34AB9825F4213200F510CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF34ABAA25F4282C00F510CC /* LicenseKeyFormattingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseKeyFormattingTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				AF34AB8B25F4213200F510CC /* TwoSumTests.swift */,
 				AF34AB8D25F4213200F510CC /* Info.plist */,
+				AF34ABAA25F4282C00F510CC /* LicenseKeyFormattingTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF34ABAB25F4282C00F510CC /* LicenseKeyFormattingTests.swift in Sources */,
 				AF34AB8C25F4213200F510CC /* TwoSumTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
