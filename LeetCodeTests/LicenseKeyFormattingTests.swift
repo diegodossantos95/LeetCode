@@ -10,19 +10,18 @@ import XCTest
 
 class LicenseKeyFormattingTests: XCTestCase {
     func licenseKeyFormatting(_ S: String, _ K: Int) -> String {
-        var license = S.split(separator: "-").joined()
-        let dashesCount = (Double(license.count) / Double(K)).rounded(.up)
-        let parts = Int(dashesCount) - 1
+        let license = S.split(separator: "-").joined().reversed()
+        var result = ""
         
-        if dashesCount > 1 {
-            for part in 1...parts {
-                let offset = (K * part * -1) - (part - 1)
-                
-                license.insert("-", at: license.index(license.endIndex, offsetBy: offset))
+        for (index, char) in license.enumerated() {
+            if index % K == 0 && index != 0 {
+                result = "\(char)-\(result)"
+            } else {
+                result = "\(char)\(result)"
             }
         }
         
-        return license.uppercased()
+        return result.uppercased()
     }
     
     func tests() throws {
