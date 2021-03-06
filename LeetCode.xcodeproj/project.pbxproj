@@ -11,7 +11,7 @@
 		AF34AB7C25F4213000F510CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34AB7B25F4213000F510CC /* ContentView.swift */; };
 		AF34AB7E25F4213200F510CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF34AB7D25F4213200F510CC /* Assets.xcassets */; };
 		AF34AB8125F4213200F510CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF34AB8025F4213200F510CC /* Preview Assets.xcassets */; };
-		AF34AB8C25F4213200F510CC /* LeetCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34AB8B25F4213200F510CC /* LeetCodeTests.swift */; };
+		AF34AB8C25F4213200F510CC /* TwoSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34AB8B25F4213200F510CC /* TwoSumTests.swift */; };
 		AF34AB9725F4213200F510CC /* LeetCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34AB9625F4213200F510CC /* LeetCodeUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +40,7 @@
 		AF34AB8025F4213200F510CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AF34AB8225F4213200F510CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF34AB8725F4213200F510CC /* LeetCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF34AB8B25F4213200F510CC /* LeetCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeTests.swift; sourceTree = "<group>"; };
+		AF34AB8B25F4213200F510CC /* TwoSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTests.swift; sourceTree = "<group>"; };
 		AF34AB8D25F4213200F510CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF34AB9225F4213200F510CC /* LeetCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF34AB9625F4213200F510CC /* LeetCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeUITests.swift; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 		AF34AB8A25F4213200F510CC /* LeetCodeTests */ = {
 			isa = PBXGroup;
 			children = (
-				AF34AB8B25F4213200F510CC /* LeetCodeTests.swift */,
+				AF34AB8B25F4213200F510CC /* TwoSumTests.swift */,
 				AF34AB8D25F4213200F510CC /* Info.plist */,
 			);
 			path = LeetCodeTests;
@@ -268,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF34AB8C25F4213200F510CC /* LeetCodeTests.swift in Sources */,
+				AF34AB8C25F4213200F510CC /* TwoSumTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
