@@ -15,8 +15,8 @@ class LeetCodeTests: XCTestCase {
         for (index, number) in nums.enumerated() {
             
             // Checks if the current number is the diff from another iteration
-            if let value = dict[number] {
-                return [value, index]
+            if let previousIndex = dict[number] {
+                return [previousIndex, index]
             }
             
             // Store the diff of target and the current number of this iteration
