@@ -10,13 +10,17 @@ import XCTest
 
 class LeetCodeTests: XCTestCase {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+        var dict = [Int: Int]()
         
-        for (index, num) in nums.enumerated() {
-            for (index2, num2) in nums.enumerated() {
-                if index != index2 && (num + num2) == target {
-                    return [index, index2]
-                }
+        for (index, number) in nums.enumerated() {
+            
+            // Checks if the current number is the diff from another iteration
+            if let value = dict[number] {
+                return [value, index]
             }
+            
+            // Store the diff of target and the current number of this iteration
+            dict[target - number] = index
         }
         
         return []
