@@ -123,9 +123,9 @@
 		AF34AB8A25F4213200F510CC /* LeetCodeTests */ = {
 			isa = PBXGroup;
 			children = (
+				AF34AB8D25F4213200F510CC /* Info.plist */,
 				AF34AB8B25F4213200F510CC /* TwoSumTests.swift */,
 				AF34ABAA25F4282C00F510CC /* LicenseKeyFormattingTests.swift */,
-				AF34AB8D25F4213200F510CC /* Info.plist */,
 				AF34ABB225F4477000F510CC /* CodilityTest1.swift */,
 				AF34ABBA25F44BAA00F510CC /* UniqueNumbersSum0.swift */,
 				AF34ABBF25F4542B00F510CC /* CountVisibleNodesInTree.swift */,
