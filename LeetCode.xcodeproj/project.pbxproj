@@ -18,6 +18,7 @@
 		AF34ABBB25F44BAA00F510CC /* UniqueNumbersSum0.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34ABBA25F44BAA00F510CC /* UniqueNumbersSum0.swift */; };
 		AF34ABC025F4542B00F510CC /* CountVisibleNodesInTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34ABBF25F4542B00F510CC /* CountVisibleNodesInTree.swift */; };
 		AF7ACE9D25F95BA400F51B01 /* MaxUniqueLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7ACE9C25F95BA400F51B01 /* MaxUniqueLength.swift */; };
+		AF7ACEA525F982FD00F51B01 /* MinDelForCharCountUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7ACEA425F982FD00F51B01 /* MinDelForCharCountUnique.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		AF34ABBA25F44BAA00F510CC /* UniqueNumbersSum0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueNumbersSum0.swift; sourceTree = "<group>"; };
 		AF34ABBF25F4542B00F510CC /* CountVisibleNodesInTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountVisibleNodesInTree.swift; sourceTree = "<group>"; };
 		AF7ACE9C25F95BA400F51B01 /* MaxUniqueLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxUniqueLength.swift; sourceTree = "<group>"; };
+		AF7ACEA425F982FD00F51B01 /* MinDelForCharCountUnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinDelForCharCountUnique.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				AF34ABB225F4477000F510CC /* CodilityTest1.swift */,
 				AF34ABBA25F44BAA00F510CC /* UniqueNumbersSum0.swift */,
 				AF34ABBF25F4542B00F510CC /* CountVisibleNodesInTree.swift */,
+				AF7ACEA425F982FD00F51B01 /* MinDelForCharCountUnique.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			files = (
 				AF34ABAB25F4282C00F510CC /* LicenseKeyFormattingTests.swift in Sources */,
 				AF7ACE9D25F95BA400F51B01 /* MaxUniqueLength.swift in Sources */,
+				AF7ACEA525F982FD00F51B01 /* MinDelForCharCountUnique.swift in Sources */,
 				AF34ABC025F4542B00F510CC /* CountVisibleNodesInTree.swift in Sources */,
 				AF34ABB325F4477000F510CC /* CodilityTest1.swift in Sources */,
 				AF34AB8C25F4213200F510CC /* TwoSumTests.swift in Sources */,
