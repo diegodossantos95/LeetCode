@@ -17,6 +17,7 @@
 		AF34ABB325F4477000F510CC /* CodilityTest1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34ABB225F4477000F510CC /* CodilityTest1.swift */; };
 		AF34ABBB25F44BAA00F510CC /* UniqueNumbersSum0.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34ABBA25F44BAA00F510CC /* UniqueNumbersSum0.swift */; };
 		AF34ABC025F4542B00F510CC /* CountVisibleNodesInTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34ABBF25F4542B00F510CC /* CountVisibleNodesInTree.swift */; };
+		AF7ACE9D25F95BA400F51B01 /* MaxUniqueLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7ACE9C25F95BA400F51B01 /* MaxUniqueLength.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		AF34ABB225F4477000F510CC /* CodilityTest1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodilityTest1.swift; sourceTree = "<group>"; };
 		AF34ABBA25F44BAA00F510CC /* UniqueNumbersSum0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueNumbersSum0.swift; sourceTree = "<group>"; };
 		AF34ABBF25F4542B00F510CC /* CountVisibleNodesInTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountVisibleNodesInTree.swift; sourceTree = "<group>"; };
+		AF7ACE9C25F95BA400F51B01 /* MaxUniqueLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxUniqueLength.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				AF34AB8D25F4213200F510CC /* Info.plist */,
 				AF34AB8B25F4213200F510CC /* TwoSumTests.swift */,
 				AF34ABAA25F4282C00F510CC /* LicenseKeyFormattingTests.swift */,
+				AF7ACE9C25F95BA400F51B01 /* MaxUniqueLength.swift */,
 				AF34ABB225F4477000F510CC /* CodilityTest1.swift */,
 				AF34ABBA25F44BAA00F510CC /* UniqueNumbersSum0.swift */,
 				AF34ABBF25F4542B00F510CC /* CountVisibleNodesInTree.swift */,
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF34ABAB25F4282C00F510CC /* LicenseKeyFormattingTests.swift in Sources */,
+				AF7ACE9D25F95BA400F51B01 /* MaxUniqueLength.swift in Sources */,
 				AF34ABC025F4542B00F510CC /* CountVisibleNodesInTree.swift in Sources */,
 				AF34ABB325F4477000F510CC /* CodilityTest1.swift in Sources */,
 				AF34AB8C25F4213200F510CC /* TwoSumTests.swift in Sources */,
