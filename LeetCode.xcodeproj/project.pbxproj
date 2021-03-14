@@ -22,6 +22,7 @@
 		AF7ACEAA25F98C9300F51B01 /* JumpGame3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7ACEA925F98C9300F51B01 /* JumpGame3.swift */; };
 		AF7ACEB525F9998600F51B01 /* LargestKAndNegativeK.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7ACEB425F9998600F51B01 /* LargestKAndNegativeK.swift */; };
 		AF7ACEBA25F9A0E700F51B01 /* PartitionEqualSumSubsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7ACEB925F9A0E700F51B01 /* PartitionEqualSumSubsets.swift */; };
+		AF7ACEC725FED1EF00F51B01 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7ACEC625FED1EF00F51B01 /* Fibonacci.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		AF7ACEA925F98C9300F51B01 /* JumpGame3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGame3.swift; sourceTree = "<group>"; };
 		AF7ACEB425F9998600F51B01 /* LargestKAndNegativeK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestKAndNegativeK.swift; sourceTree = "<group>"; };
 		AF7ACEB925F9A0E700F51B01 /* PartitionEqualSumSubsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionEqualSumSubsets.swift; sourceTree = "<group>"; };
+		AF7ACEC625FED1EF00F51B01 /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				AF34AB8B25F4213200F510CC /* TwoSumTests.swift */,
 				AF34ABAA25F4282C00F510CC /* LicenseKeyFormattingTests.swift */,
 				AF7ACEB925F9A0E700F51B01 /* PartitionEqualSumSubsets.swift */,
+				AF7ACEC625FED1EF00F51B01 /* Fibonacci.swift */,
 				AF7ACEB425F9998600F51B01 /* LargestKAndNegativeK.swift */,
 				AF7ACE9C25F95BA400F51B01 /* MaxUniqueLength.swift */,
 				AF7ACEA925F98C9300F51B01 /* JumpGame3.swift */,
@@ -302,6 +305,7 @@
 				AF7ACEAA25F98C9300F51B01 /* JumpGame3.swift in Sources */,
 				AF7ACEB525F9998600F51B01 /* LargestKAndNegativeK.swift in Sources */,
 				AF34ABC025F4542B00F510CC /* CountVisibleNodesInTree.swift in Sources */,
+				AF7ACEC725FED1EF00F51B01 /* Fibonacci.swift in Sources */,
 				AF34ABB325F4477000F510CC /* CodilityTest1.swift in Sources */,
 				AF34AB8C25F4213200F510CC /* TwoSumTests.swift in Sources */,
 				AF34ABBB25F44BAA00F510CC /* UniqueNumbersSum0.swift in Sources */,
