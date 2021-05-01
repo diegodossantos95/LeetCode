@@ -35,31 +35,33 @@ Output:6
 
 class SeatingStudents: XCTestCase {
     func seatingStudents(_ arr: [Int]) -> Int {
-      guard arr.count > 1 else {
-        return 0
-      }
-
-      var combinations = 0
-      let nSeats = arr[0]
-      let occupied = arr.dropFirst()
-      var available = [Int]()
-
-      for seat in 1...nSeats {
-        if !occupied.contains(seat) {
-          if !available.isEmpty {
-            if (available.contains(seat-1) && seat % 2 == 0) {
-              combinations += 1
+        guard arr.count > 1 else {
+            if let last = arr.last {
+                return last
+            } else {
+                return 0
             }
-            if (available.contains(seat-2)) {
-              combinations += 1
-            }
-          }
-            
-          available.append(seat)
         }
-      }
 
-      return combinations
+        var combinations = 0
+        let nSeats = arr[0]
+        let occupied = Set(arr.dropFirst())
+        var available = Set<Int>()
+        
+        for seat in 1...nSeats {
+            if !occupied.contains(seat) {
+                if (available.contains(seat-1) && seat % 2 == 0) {
+                    combinations += 1
+                }
+                if (available.contains(seat-2)) {
+                    combinations += 1
+                }
+                
+                available.insert(seat)
+            }
+        }
+
+        return combinations
     }
     
     
