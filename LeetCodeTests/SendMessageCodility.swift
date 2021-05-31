@@ -1,5 +1,5 @@
 //
-//  Task1Tests.swift
+//  SendMessageCodility.swift
 //  LeetCodeTests
 //
 //  Created by dos Santos, Diego on 06/03/21.
@@ -8,7 +8,7 @@
 import XCTest
 @testable import LeetCode
 
-class CodilityTest1: XCTestCase {
+class SendMessageCodility: XCTestCase {
     func sendMessage(_ S : String, _ A : [Int]) -> String {
         let chars = Array(S)
         var message = ""
