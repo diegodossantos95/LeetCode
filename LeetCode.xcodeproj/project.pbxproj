@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8F23EFCF263B7CDE006C3D13 /* SeatingStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F23EFCE263B7CDE006C3D13 /* SeatingStudents.swift */; };
 		8FC776C22660892D00EFC24E /* MinRemoveParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC776C12660892D00EFC24E /* MinRemoveParentheses.swift */; };
+		8FC776C42665A41000EFC24E /* BTreeTransversalOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC776C32665A41000EFC24E /* BTreeTransversalOrder.swift */; };
 		AF34AB7A25F4213000F510CC /* LeetCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34AB7925F4213000F510CC /* LeetCodeApp.swift */; };
 		AF34AB7C25F4213000F510CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34AB7B25F4213000F510CC /* ContentView.swift */; };
 		AF34AB7E25F4213200F510CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF34AB7D25F4213200F510CC /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 /* Begin PBXFileReference section */
 		8F23EFCE263B7CDE006C3D13 /* SeatingStudents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatingStudents.swift; sourceTree = "<group>"; };
 		8FC776C12660892D00EFC24E /* MinRemoveParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinRemoveParentheses.swift; sourceTree = "<group>"; };
+		8FC776C32665A41000EFC24E /* BTreeTransversalOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTreeTransversalOrder.swift; sourceTree = "<group>"; };
 		AF34AB7625F4213000F510CC /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF34AB7925F4213000F510CC /* LeetCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeApp.swift; sourceTree = "<group>"; };
 		AF34AB7B25F4213000F510CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				AF7ACEA425F982FD00F51B01 /* MinDelForCharCountUnique.swift */,
 				8F23EFCE263B7CDE006C3D13 /* SeatingStudents.swift */,
 				8FC776C12660892D00EFC24E /* MinRemoveParentheses.swift */,
+				8FC776C32665A41000EFC24E /* BTreeTransversalOrder.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				AF7ACEAA25F98C9300F51B01 /* JumpGame3.swift in Sources */,
 				AF7ACEB525F9998600F51B01 /* LargestKAndNegativeK.swift in Sources */,
 				AF34ABC025F4542B00F510CC /* CountVisibleNodesInTree.swift in Sources */,
+				8FC776C42665A41000EFC24E /* BTreeTransversalOrder.swift in Sources */,
 				AF7ACEC725FED1EF00F51B01 /* Fibonacci.swift in Sources */,
 				AF34ABB325F4477000F510CC /* SendMessageCodility.swift in Sources */,
 				AF34AB8C25F4213200F510CC /* TwoSumTests.swift in Sources */,
