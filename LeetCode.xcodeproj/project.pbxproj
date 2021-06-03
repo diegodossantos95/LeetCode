@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8F23EFCF263B7CDE006C3D13 /* SeatingStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F23EFCE263B7CDE006C3D13 /* SeatingStudents.swift */; };
+		8F39652426687901004C3B25 /* SimplifyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F39652326687901004C3B25 /* SimplifyPath.swift */; };
 		8FC776C22660892D00EFC24E /* MinRemoveParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC776C12660892D00EFC24E /* MinRemoveParentheses.swift */; };
 		8FC776C42665A41000EFC24E /* BTreeTransversalOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC776C32665A41000EFC24E /* BTreeTransversalOrder.swift */; };
 		8FC776C626671B1D00EFC24E /* BuildingsWithOceanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC776C526671B1D00EFC24E /* BuildingsWithOceanView.swift */; };
@@ -48,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		8F23EFCE263B7CDE006C3D13 /* SeatingStudents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatingStudents.swift; sourceTree = "<group>"; };
+		8F39652326687901004C3B25 /* SimplifyPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplifyPath.swift; sourceTree = "<group>"; };
 		8FC776C12660892D00EFC24E /* MinRemoveParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinRemoveParentheses.swift; sourceTree = "<group>"; };
 		8FC776C32665A41000EFC24E /* BTreeTransversalOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTreeTransversalOrder.swift; sourceTree = "<group>"; };
 		8FC776C526671B1D00EFC24E /* BuildingsWithOceanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingsWithOceanView.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				8FC776C12660892D00EFC24E /* MinRemoveParentheses.swift */,
 				8FC776C32665A41000EFC24E /* BTreeTransversalOrder.swift */,
 				8FC776C526671B1D00EFC24E /* BuildingsWithOceanView.swift */,
+				8F39652326687901004C3B25 /* SimplifyPath.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				AF7ACEA525F982FD00F51B01 /* MinDelForCharCountUnique.swift in Sources */,
 				AF7ACEBA25F9A0E700F51B01 /* PartitionEqualSumSubsets.swift in Sources */,
 				AF7ACEAA25F98C9300F51B01 /* JumpGame3.swift in Sources */,
+				8F39652426687901004C3B25 /* SimplifyPath.swift in Sources */,
 				AF7ACEB525F9998600F51B01 /* LargestKAndNegativeK.swift in Sources */,
 				AF34ABC025F4542B00F510CC /* CountVisibleNodesInTree.swift in Sources */,
 				8FC776C42665A41000EFC24E /* BTreeTransversalOrder.swift in Sources */,
